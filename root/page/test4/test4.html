@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test4</title>
+</head>
+<body>
+<ul>
+    <a href="http://www.baidu.com">百度一下</a>
+    <li>这是一个列表元素1</li>
+    <li>这是一个列表元素2</li>
+    <li>这是一个列表元素3</li>
+    <li>这是一个列表元素4</li>
+    <li>这是一个列表元素5</li>
+    <li>这是一个列表元素6</li>
+    <li>这是一个列表元素7</li>
+    <li>这是一个列表元素8</li>
+    <li>jquery</li>
+    <span>方法测试</span>
+</ul>
+    <script src="../../script/lib/jquery-1.4.1.min.js"></script>
+    <script>
+        $("li").css("font-size",function(index,value){
+            return (index+1)*parseInt(value) + "px";
+        })
+        $("li").css("list-style",function(){
+            return "none"
+        })
+        $("a[href!='heheda']").css("font-size","50px")
+        $("a[href^='http']").css("color","red")
+        $("li").parent().css("background","gold");
+
+
+    </script>
+</body>
+</html>

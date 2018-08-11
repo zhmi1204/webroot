@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+.p_header{
+    width: 970px;
+    text-align: center;
+}
+.p_header_left{
+    float: left;
+    height: 103px;
+    width: 277px;
+    background-color: red;
+}
+.p_header_right{
+    float: right;
+}
+.p_header_right_up{
+    width: 137px;
+    height: 49px;;
+    float: right;
+    background-color: limegreen;
+}
+.p_header_right_down{
+    width: 679px;
+    height: 46px;
+    background-color: limegreen;
+}
+
+.p_body{
+    width: 970px;
+    text-align: center;
+    background-color: grey;
+}
+.p_body_left{
+    width: 310px;
+    height: 435px;
+    float: left;
+    margin-right: 10px;
+    background-color: gold;
+}
+.p_body_right{
+    float: left;
+}
+.p_body_right_up{
+    float: left;
+}
+.p_body_right_up_left{
+    width: 450px;
+    float: left;
+}
+.p_body_right_up_left_up{
+    height: 240px;
+    background-color: #2995FF;
+}
+.p_body_right_up_left_center{
+    height: 110px;
+    background-color: #2995FF;
+}
+.p_body_right_up_left_down{
+    height:30px;
+    background-color: #2995FF;
+}
+.p_body_right_up_right{
+    width: 190px;
+    margin-left: 10px;
+    float: left;
+    height: 401px;
+    background-color: deeppink;
+
+}
+.p_body_right_down{
+    height:25px;
+    width: 650px;
+    background-color: green;
+}
+
+.p_footer{
+    width: 970px;
+    height: 35px;
+    text-align: center;
+    background-color: blue;
+}
+/*三种办法清除浮动：*/
+/*1、给父盒子加高*/
+/*2、给后一个盒子加cl，缺点是margin失效*/
+/*3、墙：*/
+/*外墙法，div没高*/
+/*内墙法，div有了高*/
+/*4、overflow:hidden（与内墙法一个效果，优势是不用修墙）*/
+/*给父盒子加overflow能自适应浮动的子盒子*/
+/*IE6不兼容时，可利用_zoom:1来使overflow实现清除浮动*/
+.h8{
+    clear: both;
+    height: 8px;
+    /*解决IE6微型盒子不兼容问题问题*/
+    _font-size: 0;
+}
+.h10{
+    clear: both;
+    height: 10px;
+    _font-size: 0;
+}

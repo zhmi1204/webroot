@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*padding-top: 68px;*/
+    _padding-top:0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei","SimSun";
+}
+.inner_c{
+    /*居中*/
+    width: 1000px;
+    margin: 0 auto;
+}
+.cl{
+    clear: both;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.backtop{
+    position:fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+.ads{
+    height: 87px;
+    background: url("../image/ads.jpg") no-repeat center top;
+}
+
+.posfix{
+    position: fixed;
+}

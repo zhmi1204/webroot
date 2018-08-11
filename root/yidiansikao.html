@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一点思考</title>
+    <link rel="icon" href="image/faviconS.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/global.css" type="text/css">
+    <link rel="stylesheet" href="css/banner.css" type="text/css">
+    <link rel="stylesheet" href="css/content.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            top: 100px;
+            left: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <a class="backtop">返回<br />顶部</a>
+    <div class="header">
+        <div class="inner_c">
+            <h1 class="logo"><img src="image/faviconM.png" alt=""></h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="#" class="current">首页</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="#">相册</a></li>
+                    <li><a href="#">一点思考</a></li>
+                    <li><a href="#">小作业</a></li>
+                    <li class="last"><a href="#">留言板</a></li>
+                </ul>
+            </div>
+            <div class="jrwm_box">
+                <a href="page/test3/smile.html" class="jrwm">查看简历</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <input type="button" value="按钮" id="btn">
+    </div>
+    <script type="text/javascript" src="script/lib/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript">
+        $("#btn").click(
+                function(){
+                    $().show("#div")
+                }
+        )
+    </script>
+</body>
+</html>
