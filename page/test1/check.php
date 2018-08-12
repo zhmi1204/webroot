@@ -1,9 +1,12 @@
 <?php
-    $connect = mysqli_connect("localhost",'root','root');
+    $mysqli = new mysqli("localhost",'root','root','web_userinfo');
 
-    if($connect){
-        echo "success!";
-    }else{
-        echo "failed!";
+    if($mysqli->connect_error){
+        echo "Failed to connect to mysql:(".$msyqli->connect_error.")".$mysqli->connect_error;
     }
+	if(!$mysqli->query("select * from userinfo")){
+		echo "Falied to select!";
+	}else{
+		echo "Success to select: ".$mysqli->query("select * from userinfo");
+	}
 ?>
