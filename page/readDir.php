@@ -36,8 +36,8 @@
                 // add by zhouming
                 $f = str_replace('\\','/',$f);
                 $str = $f.'/'.'index.html';
-                $f = 'localhost/page/'.explode('/page/',$str)[1];
-                echo '<a href='.$str.'>'.explode('/',$f)[2].'</a>';
+                $f = './'.explode('/page/',$str)[1];
+                echo '<a href='.$f.'>'.explode('/',$f)[1].'</a>';
                 echo '</br>';
 
             }
