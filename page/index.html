@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>小测验</title>
+    <style>
+        *{
+            margin: 0 auto;
+        }
+        div,h1{
+            position: relative;
+            left:100px;
+        }
+        a{
+            line-height:50px;
+            width: 100%;
+        }
+        .nav{
+            float: left;
+            position: relative;
+            top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>小练习</h1>
+<div class="nav">
+</div>
+</body>
+<script type="text/javascript" src="../script/lib/jquery.min.js"></script>
+<script type="text/javascript">
+    $('.nav').load('./readDir.php');
+</script>
+</html>
