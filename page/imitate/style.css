@@ -1,0 +1,147 @@
+* {
+	font-size: 14px;
+}
+
+body {
+	background: #f6f6f6;
+    margin: 0 auto;
+}
+
+.main {
+
+
+}
+
+.front_info {
+
+}
+
+/*float将li向左漂移，横排变为竖排*/
+.front_info>.left {
+
+}
+
+.front_info>.right {
+
+}
+
+.up_navi {
+
+}
+
+.up_navi div a{
+
+}
+
+.up_navi ul {
+
+}
+
+.up_navi ul li {
+
+}
+
+.up_navi ul li a{
+
+}
+
+/*包括已点击的和未点击的*/
+.up_navi li a,.up_navi li a:visited{
+
+}
+
+/*鼠标放在链接上时*/
+.up_navi li a,.up_navi li a:hover{
+
+}
+
+/*鼠标点击元素时的样式*/
+.up_navi li a,.up_navi li a:active{
+
+}
+
+.up_info{
+
+}
+
+.up_info>.img{
+
+}
+
+.up_info>.li{
+
+}
+
+.up_info>.li>p{
+
+}
+
+.up_info .li li{
+
+}
+
+.up_info .li li:hover{
+
+}
+
+.middle_info{
+
+}
+
+.middle_info .img img{
+
+}
+
+.middle_info .img{
+
+}
+
+.middle_info .lst li{
+
+}
+
+.middle_info .lst div{
+
+}
+
+.middle_info .lst p{
+
+}
+.middle_info .lst p a{
+
+}
+
+.bottom_info table thead td{
+
+}
+
+.bottom_info table tbody td{
+
+}
+.bottom_info table{
+
+}
+
+.bottom_info .links .fr{
+
+}
+
+.bottom_info .links p a{
+
+}
+
+.bottom_info{
+
+}
+
+.down_navi .img {
+
+}
+
+.down_navi .text{
+
+}
+
+.down_navi{
+
+}
