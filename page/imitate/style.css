@@ -1,147 +1,267 @@
-* {
-	font-size: 14px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-	background: #f6f6f6;
+.inner_c{
+    width: 1300px;
     margin: 0 auto;
 }
 
-.main {
-
-
+body{
+    font-size: 18px;
 }
 
-.front_info {
-
+.btn{
+    display: block;
+    padding: 10px 20px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #2DA671;
+    border-radius: 5px;
 }
 
-/*float将li向左漂移，横排变为竖排*/
-.front_info>.left {
-
+.front{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #0261B3;
 }
 
-.front_info>.right {
-
+.front table{
+    padding: 5px 30px 5px 30px;
+    width: 100%;
 }
 
-.up_navi {
-
+.front .left{
+    float: left;
+    font-size: 25px;
 }
 
-.up_navi div a{
-
+.front .right{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: right;
 }
 
-.up_navi ul {
-
+.mid{
+    width: 1300px;
+    height: 53px;
+    opacity: 0.9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    background-color: #E6E6E6;
 }
 
-.up_navi ul li {
-
+.mid .nav{
+    width: 980px;
+    margin: 0 auto;
 }
 
-.up_navi ul li a{
-
+.mid ul{
+    list-style: none;
 }
 
-/*包括已点击的和未点击的*/
-.up_navi li a,.up_navi li a:visited{
-
+.mid ul li{
+    width: 140px;
+    float: left;
+    text-align: center;
+    line-height: 53px;
 }
 
-/*鼠标放在链接上时*/
-.up_navi li a,.up_navi li a:hover{
-
+.mid ul li a{
+    font-size: 20px;
+    color: #8c8c8c;
+    /*撑高*/
+    height: 53px;
+    text-decoration: none;
 }
 
-/*鼠标点击元素时的样式*/
-.up_navi li a,.up_navi li a:active{
-
+.mid ul li a:hover{
+    color: white;
 }
 
-.up_info{
-
+.info{
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
-.up_info>.img{
-
+.info ul{
+    list-style: none;
 }
 
-.up_info>.li{
-
+.info ul .li_pic{
+    float: left;
 }
 
-.up_info>.li>p{
-
+.info ul .li_wd{
+    float: left;
 }
 
-.up_info .li li{
-
+.info .pic{
+    float: left;
 }
 
-.up_info .li li:hover{
-
+.info .pic a img{
+    display: block;
 }
 
-.middle_info{
-
+.harbour{
+    float: left;
+    width: 322px;
+    margin-left: 20px;
 }
 
-.middle_info .img img{
-
+.harbour ul{
+    list-style: none;
+    padding-left: 20px;
 }
 
-.middle_info .img{
-
+.harbour ul li{
+    height: 50px;
 }
 
-.middle_info .lst li{
-
+.harbour ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.middle_info .lst div{
-
+.foot{
+    width:100%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
-.middle_info .lst p{
-
-}
-.middle_info .lst p a{
-
+.foot .pic{
+    float: left;
 }
 
-.bottom_info table thead td{
-
+.foot .pic a img{
+    display: block;
 }
 
-.bottom_info table tbody td{
-
-}
-.bottom_info table{
-
-}
-
-.bottom_info .links .fr{
-
+.foot .ls {
+    float: left;
+    width: 1068px;
+    height: 350px;
 }
 
-.bottom_info .links p a{
-
+.foot .ls ul{
 }
 
-.bottom_info{
-
+.foot .ls ul li{
+    float: left;
+    width: 250px;
+    padding-left: 14px;
+    list-style: none;
 }
 
-.down_navi .img {
-
+.foot .ls ul li .frame{
+    width: 250px;
+    height: 172px;
+    padding-left: 2px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 2px;
 }
 
-.down_navi .text{
+.foot .ls ul li .frame .a_pic{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
 
+.foot .ls ul li .frame .a_wd{
+    display: block;
+    width: 90px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.bottom{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom table{
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottom table thead{
+    text-align: center;
+}
+
+.bottom table thead tr{
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #E6E6E6;
+}
+
+.bottom table tbody{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom table tbody tr{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.bottom .links{
+    padding-bottom: 20px;
+}
+
+.bottom .links table{
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottom .links table thead{
+    text-align: center;
+}
+
+.bottom .links table thead tr{
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #E6E6E6;
+}
+
+.bottom .links table thead tr td{
+    width: 225px;
 }
 
 .down_navi{
+    padding: 5px 30px 5px 30px;
+    margin: 0 auto;
+}
 
+.down_navi ul{
+    list-style: none;
+    padding-left: 87px;
+}
+
+.down_navi .down_logo{
+    float: left;
+    padding-right: 30px;
+}
+
+.down_navi .down_text{
+    float: left;
+    padding-top: 6px;
+}
+
+.down_text p{
+    font-size: 15px;
 }
