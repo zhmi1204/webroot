@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>注册</title>
+    <style>
+        body{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .login{
+            background-color: #C5C3C3;
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            border-radius: 15px;
+        }
+        .formstyle{
+            position: absolute;
+            width: 60%;
+            margin-top: 9%;
+            margin-left: 20%;
+        }
+
+    </style>
+</head>
+    <body>
+        <div class="login">
+            <form class="formstyle" action="register.php" method="POST">
+                <fieldset>
+                    <p>
+                        <label>请输入新账号：</label>
+                        <input type="text" name="username" required="required" value="手机号/邮箱" onfocus="if(value=='手机号/邮箱'){value=''}" onblur="if(value==''){value='手机号/邮箱'}" />
+                    </p>
+                    <p>
+                        <label>请输入新密码：</label>
+                        <input type="text" name="password" required="required" value="您的密码" onfocus="if(value=='您的密码'){value=''}" onblur="if(value==''){value='您的密码'}" />
+                    </p>
+                    <p>
+                        <label>再次输入密码：</label>
+                        <input type="text" name="repeatpswd" required="required" value="再次输入密码" onfocus="if(value=='您的密码'){value=''}" onblur="if(value==''){value='您的密码'}" />
+                    </p>
+                    <p>
+                        <input type="submit" name="logins" value="登陆"/>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
+</body>
+</html>
